@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <script src="//code.jquery.com/jquery.min.js"></script>
     <title>University of Minnesota Personal Fitness</title>
 
 </head>
@@ -18,29 +19,22 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarColor03">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">University Fitness</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Small Group Training</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Personal Training</a>
-                </li>
-            </ul>
+        <ul class="nav navbar-nav">
+            <li class="active"> <a href="#Home" data-toggle="tab" >Home</a></li>
+            <li> <a href=file:///C:/Users/klwid/Desktop/Personal-Training/services.html data-toggle="tab" >Services</a></li>
+            <li> <a href="#about_us" data-toggle="tab" >About us</a></li>
+            <li> <a href="#contact_us" data-toggle="tab">Contact us</a></li>
+          </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search">
                 <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
     </nav>
+
+   
+
+
     
     
     <h2 class="header">Personal Fitness</h2>
@@ -58,7 +52,7 @@
                             <img class= "w-100 p-3" style="background-color: rgb(238, 238, 238);" Width 50% src="assets/images/yoga101.JPG" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                                <img class= "w-100 p-3" style="background-color: rgb(197, 104, 29);" Width 50% src="assets/images/ladder.JPG" alt="Second slide">
+                                <img class= "w-100 p-3" style="background-color: rgb(255, 255, 255);" Width 50% src="assets/images/ladder.JPG" alt="Second slide">
                         </div>
                         <div class="carousel-item">
                                 <img class= "w-100 p-3" style="background-color: rgb(238, 238, 238);" Width 50% src="assets/images/signHere.JPG" alt="Third slide">
@@ -77,19 +71,21 @@
 
         <div class="card-deck">
             <div class="card" >
-                <img class="card-img-top" src="assets/images/bailey.JPG" alt="Card image cap" style="width: 15rem; height: 15rem;">
+                <!-- <img class="card-img-top" src="assets/images/bailey.JPG" alt="Card image cap" style="width: 15rem; height: 15rem;"> -->
                 <div class="card-body">
-                    <h5 class="card-title">Bailey G</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" src="assets/images/Bailey.jpg" allowfullscreen></iframe>
                       </div>
+                      <h5 class="card-title">Kevin Widmer</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     <a href="https://calendar.google.com/calendar/b/1/r?tab=mc" class="btn btn-primary">Schedule Now</a>
                 </div>
                 </div>
                     <div class="card">
-                    <img class="card-img-top" src="" alt="Card image cap"  style="width: 15rem; height: 15rem;">
+                    <img class="card-img-top" src="assets/images/Steven.jpg" alt="Card image cap"  style="width: 15rem; height: 15rem;">
                     <div class="card-body">
                         <h5 class="card-title">Steven L</h5>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -116,45 +112,6 @@
                     </div>
                 </div>
             </div>
-            <br>
-            <div class="card-deck">
-                <div class="card" >
-                    <img class="card-img-top" src="" alt="Card image cap" style="width: 15rem; height: 15rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Alyssa L</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        <a href="https://calendar.google.com/calendar/b/1/r?tab=mc" class="btn btn-primary">Schedule Now</a>
-                    </div>
-                    </div>
-                        <div class="card">
-                        <img class="card-img-top" src="" alt="Card image cap"  style="width: 15rem; height: 15rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Sneh B</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                        <div class="card">
-                        <img class="card-img-top" src="" alt="Card image cap" style="width: 15rem; height: 15rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Callie A</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                        </div>
-                        <div class="card">
-                        <img class="card-img-top" src="" alt="Card image cap" style="width: 15rem; height: 15rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Jon A</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
         </div>
     </div>
 </div>
@@ -163,7 +120,6 @@
 
 </Script>
                     
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
